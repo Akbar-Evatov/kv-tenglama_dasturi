@@ -6,5 +6,5 @@ D = b**2-4*a*c
 x1 = float((-b+D**(1/2))/(2*a))
 x2 = float((-b-D**(1/2))/(2*a))
 print('D=', D)
-print('Birinchi ildiz: ', x1)
-print('Ikkinchi ildizi: ', x2)
+print(f'Birinchi ildizi {x1} ga teng')
+print(f'Ikkinchi ildizi {x2} ga teng')
