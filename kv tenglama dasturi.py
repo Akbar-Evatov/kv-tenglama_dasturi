@@ -1,0 +1,10 @@
+print('ax^2+bx+c=0')
+a = float(input('a ning qiymatini kiriting: '))
+b = float(input('b ning qiymatini kiriting: '))
+c = float(input('c ning qiymatini kiriting: '))
+D = b**2-4*a*c
+x1 = float((-b+D**(1/2))/(2*a))
+x2 = float((-b-D**(1/2))/(2*a))
+print('D=', D)
+print('Birinchi ildiz: ', x1)
+print('Ikkinchi ildizi: ', x2)
